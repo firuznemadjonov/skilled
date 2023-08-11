@@ -1,0 +1,42 @@
+.btn{
+  padding: 1.4rem 3.2rem;
+  color: $white-color;
+  border-radius: 2.8rem;
+}
+
+.header__btn{
+  color: $white-color;
+  padding: 1.4rem 3.2rem;
+  border-radius: 2.8rem;
+background-color: $dark-blu-color;
+}
+
+.header__btn:hover{
+  background-color: $blu-color;
+  transition: 0.3s;
+}
+
+.main__btn{
+  padding: 1.9rem 3.1rem 1.6rem 3.4rem;
+  border-radius: 3.1rem;
+  color: $white-color;
+  background-image: $brand-color;
+}
+
+.main__btn:hover{
+  background-color:$light-pink-color;
+  transition: 0.3s;
+}
+
+.footer__btn{
+  background-image:$btn-color;
+  color:$white-color;
+  padding: 1.4rem 3.2rem;
+  border-radius: 4rem;
+}
+
+.footer__btn:hover{
+  background-color:$secndry-color;
+  transition: 0.3s;
+ 
+}
